@@ -1,0 +1,20 @@
+#Ignore mac files
+.DS_Store
+#Ignore ipynb checkpoints
+notebooks/.ipynb_checkpoints
+#Ignore src files
+src/__pycache__
+#Ignore dataset 
+data/raw/
+data/processed/
+#Ignore models
+models/allimages_imbalance_adam.hdf5
+models/final_imbalance_best_adam1.hdf5
+models/final_imbalance_best_adam2.hdf5
+models/final_imbalance_best_sgd.hdf5
+models/final_imbalance_best_sgd1.hdf5
+models/final_imbalance_best_sgd3.hdf5
+models/imbalance_best.hdf5
+models/pretrained_vgc_adam.hdf5
+models/pretrained_vgc_sgd.hdf5
+models/pretrained_vgc_sgd2.hdf5

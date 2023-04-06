@@ -41,4 +41,4 @@ It will open a web page in the browser
 ```
 <br />To test the images, open testimages folder and load them in the streamlit app:
 <br />The image will be split into 50x50x3 patches and cancer will be predicted for individual patches. If the cancer is predicted the output image will show the area where cancer is present in blue colour. 
-
+<br /> Bigger images will take more time. For example, in testimages folder test_image_patient.png is a whole slide image and will take ~5-10min for the prediction.

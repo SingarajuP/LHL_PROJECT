@@ -36,8 +36,9 @@ pip install -r requirements.txt
 <br />To run web application stay in the main directory and run the command:
 ```bash
 streamlit run app.py
+# It will open a web page in the browser 
+
 ```
- It will open a web page in the browser 
 
 <br />To test the images, open testimages folder and load them in the streamlit app:
 <br />The image will be split into 50x50x3 patches and cancer will be predicted for individual patches. If the cancer is predicted the output image will show the area where cancer is present in blue colour. 

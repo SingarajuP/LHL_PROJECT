@@ -40,6 +40,5 @@ It will open a web page in the browser
 
 ```
 <br />To test the images, open testimages folder and load them in the streamlit app:
-```bash
 The image will be split into 50x50x3 patches and cancer will be predicted for individual patches. If the cancer is predicted the output image will show the area where cancer is present in blue colour. 
 

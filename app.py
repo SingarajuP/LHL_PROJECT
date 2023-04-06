@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 from PIL import Image
 from src.predict import classify
+from src.process import output_image
 from src.utils import model_bc
 import sys
 sys.path.append("src/")
@@ -20,7 +21,10 @@ if upload is not None:
   c1.image(im)
   c1.write(img.shape)  
   model=model_bc()
-  prediction=classify(model,img) 
+  prediction,imagesize=classify(model,img) 
+
+  prediction_image=output_image(prediction,imagesize)
   c2.header('Output')
-  c2.subheader('Predicted class :')
-  c2.write(prediction )
+  #c2.subheader('Predicted class :')
+  #c2.write("prediction image: ")
+  c2.image(prediction_image)

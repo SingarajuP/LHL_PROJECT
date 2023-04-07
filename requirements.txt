@@ -3,6 +3,7 @@ keras==2.9.0
 keras-Preprocessing==1.1.2
 matplotlib==3.7.1
 numpy==1.22.3
+opencv-python==4.7.0.72
 pandas==1.5.3
 patchify==0.2.3
 regex==2023.03.23

@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-import cv2
+#import cv2
 from PIL import Image
 from src.predict import classify
 from src.process import output_image

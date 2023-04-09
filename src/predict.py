@@ -36,8 +36,8 @@ def classify(model,img):
         y_center = (new_image_height - old_image_height) // 2
 
 # copy img image into center of result image
-        result[x_center:x_center+old_image_height, 
-        y_center:y_center+old_image_width] = img
+        result[y_center:y_center+old_image_height,x_center:x_center+old_image_width] = img
+
         image_height, image_width, channel_count = result.shape
         patch_height, patch_width, step = 50, 50, 50
         patch_shape = (patch_height, patch_width, channel_count)

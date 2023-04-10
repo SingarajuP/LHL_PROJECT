@@ -1,6 +1,6 @@
 # Predicting Breast Cancer from tissue samples
 <br />[Breast cancer prediction from histopathology images](https://singarajup-histopathology-breastcancer-prediction-app-3ey2vh.streamlit.app/)
-This is a final Data Science project at Lighthouse labs
+<br /> This is a final Data Science project at Lighthouse labs
 
 Overview:
 The most common type of cancer is Breast cancer impacting 2.1 million women worldwide every year. About 80% of all breast cancers are invasive ductal carcinomas. Invasive means that the cancer has spread to the surrounding breast tissues. Over time, invasive ductal carcinoma can spread to the lymph nodes and possibly to other areas of the body.

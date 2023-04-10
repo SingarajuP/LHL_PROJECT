@@ -1,4 +1,6 @@
 # Predicting Breast Cancer from tissue samples
+<br />The deployed app can be accessed in the link below.
+
 <br />[Breast cancer prediction from histopathology images](https://singarajup-histopathology-breastcancer-prediction-app-3ey2vh.streamlit.app/)
 
 
